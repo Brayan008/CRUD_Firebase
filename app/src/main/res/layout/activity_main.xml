@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="5pt">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tus datos"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+    android:id="@+id/etNombre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Nombre"
+    android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Apellidos"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Correo"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etLPrograma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Lenguaje de programacion"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPsswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="10pt"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Lista de personas" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_datosPersonas"/>
+
+
+</LinearLayout>
